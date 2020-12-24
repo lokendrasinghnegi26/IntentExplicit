@@ -5,9 +5,17 @@
     android:id="@+id/edituser"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9E2323"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
 
     <EditText
         android:id="@+id/username"
@@ -15,19 +23,13 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="User Name"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter Password"
-        android:inputType="textPassword" />
+        android:inputType="textPersonName"
+        android:paddingBottom="20dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingTop="20dp"
         android:text="Button" />
 </LinearLayout>
